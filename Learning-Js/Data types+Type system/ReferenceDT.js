@@ -22,3 +22,15 @@ let obj2 = obj1; // obj2 is assigned a reference to the same object as obj1
 // If we change the value of obj1, it will affect obj2, and vice versa. This is because both obj1 and obj2 reference the same object in memory.
 obj1.name = "Jane";
 console.log(obj2);
+
+//Function
+
+function greet() {
+    console.log("Hello, World!");
+}
+let greet2 = greet; // greet2 is assigned a reference to the same function as greet
+// Here greet2 is not a copy of greet, but a reference to the same function in memory.
+// If we change the value of greet, it will affect greet2, and vice versa. This is because both greet and greet2 reference the same function in memory.
+greet = function() {
+    console.log("Hi, there!");
+}
