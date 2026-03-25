@@ -47,3 +47,25 @@ do{
     j++;
 }
 while(j<52)
+
+//Break 
+
+for(let x=1;x<201;x++){
+    console.log(x)
+    if(x===32){
+    break;
+    }
+}
+
+// The break statement terminates the entire loop immediately, transferring control to the first line of code following the loop. 
+
+// Continue
+
+for(let y=1; y<201; y++){
+    if(y === 40){
+        continue;
+    }
+    console.log(y)
+}
+
+// the continue statement skips the remaining code in the current iteration and jumps directly to the next iteration of the same loop. 

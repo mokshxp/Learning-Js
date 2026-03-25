@@ -1,6 +1,6 @@
-let j=1
-do{
-    console.log(j)
-    j++;
+for(let a=1;a<=50;a++){
+    if(a%3==0){
+        console.log(a)
+    }
+    a++;
 }
-while(j<52)
