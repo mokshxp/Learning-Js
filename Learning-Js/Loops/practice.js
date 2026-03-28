@@ -39,8 +39,8 @@
 // Q6. Find the sum of numbers from 1 to 100 using a loop.
 
 // let sum=0;
-// for(let f=1;f<101;f++){
-//     sum=sum+f;
+// for(let i=1;i<101;i++){
+//     sum=sum+i;
     
 // }
 // console.log(sum)
@@ -122,13 +122,13 @@
 // Expected output:
 // 1 3 5 7 9
 
-let count = 0;
+// let count = 0;
 
-for (let i = 1; i <= 100; i++) {
-    if (i % 2 === 0) continue;
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 2 === 0) continue;
 
-    console.log(i);
-    count++;
+//     console.log(i);
+//     count++;
 
-    if (count === 5) break;
-}
+//     if (count === 5) break;
+// }
