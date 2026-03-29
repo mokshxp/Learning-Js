@@ -147,13 +147,33 @@
 
 // Reverse a number
 
-let n= Number(prompt("Enter a Number: "));
-let reverse=0;
+// let n= Number(prompt("Enter a Number: "));
+// let reverse=0;
 
-while(n>0){
-    let digit= n%10;
-    reverse= reverse * 10 + digit;
-    n= Math.floor(n/10);
+// while(n>0){
+//     let digit= n%10;
+//     reverse= reverse * 10 + digit;
+//     n= Math.floor(n/10);
 
-}
-console.log("Reversed number is: ", reverse);
+// }
+// console.log("Reversed number is: ", reverse);
+
+
+// Check if a number is palindrome
+
+// let n= Number(prompt("Enter number : "))
+
+// let original=n;
+// let rev=0;
+
+// while(n>0){
+//     let digit=n%10;
+//     rev= rev * 10 + digit;
+//     n=Math.floor(n/10);
+// }
+// if(rev === original){
+//     console.log("number is palindrome")
+// }
+// else{
+//     console.log("not a palindrome")
+// }
