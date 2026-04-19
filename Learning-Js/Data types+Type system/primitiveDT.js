@@ -1,3 +1,11 @@
+/*
+prefer not to use var because of issues in block scope and functional scope  
+*/
+
+"use strict"; // this is used to treat all js code as newer version
+
+// alert("hello") // used in browser and here we are using node js and alert only works in browser
+
 //primitive data types are immutable, meaning they cannot be changed. 
 //When you assign a primitive value to a variable, it creates a new copy of that value in memory. 
 //If you change the value of the variable, it does not affect the original value.

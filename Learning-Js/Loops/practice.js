@@ -93,6 +93,7 @@
     
 // }
 
+
 //  Q2: Skip Multiples of 3
 
 // Write a loop from 1 to 20 that:
@@ -110,6 +111,7 @@
 //     }
 //     console.log(i)
 // }
+
 
 // Q3: Print First 5 Odd Numbers Only
 
